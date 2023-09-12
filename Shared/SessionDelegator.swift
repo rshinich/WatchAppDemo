@@ -10,7 +10,7 @@ import WatchConnectivity
 
 extension Notification.Name {
     static let activationDidComplete = Notification.Name("ActivationDidComplete")
-    static let reachabilityDidChange = Notification.Name("ReachabilityDidChange")
+    static let reachabilityDidChange = Notification.Name("reachabilityDidChange")
 
     static let didReceiveMessage = Notification.Name("DidReceiveMessage")
     static let didReceiveMessageData = Notification.Name("DidReceiveMessageData")

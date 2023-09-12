@@ -32,6 +32,9 @@
 		9FC12F7B2AAB1849008A08AE /* ControlControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC12F762AAB1849008A08AE /* ControlControlView.swift */; };
 		9FC12F7C2AAB1857008A08AE /* SessionDelegator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC12F3E2AAB180E008A08AE /* SessionDelegator.swift */; };
 		9FC12F7E2AAECB47008A08AE /* RemoteControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC12F7D2AAECB47008A08AE /* RemoteControlView.swift */; };
+		9FC12F802AB013F1008A08AE /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC12F7F2AB013F1008A08AE /* CameraView.swift */; };
+		9FC12F822AB0312C008A08AE /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC12F812AB0312C008A08AE /* TestModel.swift */; };
+		9FC12F842AB03724008A08AE /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC12F832AB03724008A08AE /* ReachabilityManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +120,9 @@
 		9FC12F752AAB1849008A08AE /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../WatchApp/WatchApp-Watch Watch App/ContentView.swift"; sourceTree = "<group>"; };
 		9FC12F762AAB1849008A08AE /* ControlControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlControlView.swift; sourceTree = "<group>"; };
 		9FC12F7D2AAECB47008A08AE /* RemoteControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteControlView.swift; sourceTree = "<group>"; };
+		9FC12F7F2AB013F1008A08AE /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		9FC12F812AB0312C008A08AE /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
+		9FC12F832AB03724008A08AE /* ReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,6 +248,9 @@
 				9FC12F742AAB1849008A08AE /* PhotoControlView.swift */,
 				9FC12F732AAB1849008A08AE /* VideoControlView.swift */,
 				9FC12F7D2AAECB47008A08AE /* RemoteControlView.swift */,
+				9FC12F7F2AB013F1008A08AE /* CameraView.swift */,
+				9FC12F812AB0312C008A08AE /* TestModel.swift */,
+				9FC12F832AB03724008A08AE /* ReachabilityManager.swift */,
 				9FC12F4A2AAB1833008A08AE /* Assets.xcassets */,
 				9FC12F4C2AAB1833008A08AE /* Preview Content */,
 			);
@@ -526,11 +535,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FC12F7B2AAB1849008A08AE /* ControlControlView.swift in Sources */,
+				9FC12F842AB03724008A08AE /* ReachabilityManager.swift in Sources */,
 				9FC12F792AAB1849008A08AE /* PhotoControlView.swift in Sources */,
 				9FC12F7E2AAECB47008A08AE /* RemoteControlView.swift in Sources */,
+				9FC12F802AB013F1008A08AE /* CameraView.swift in Sources */,
 				9FC12F782AAB1849008A08AE /* VideoControlView.swift in Sources */,
 				9FC12F7C2AAB1857008A08AE /* SessionDelegator.swift in Sources */,
 				9FC12F7A2AAB1849008A08AE /* ContentView.swift in Sources */,
+				9FC12F822AB0312C008A08AE /* TestModel.swift in Sources */,
 				9FC12F772AAB1849008A08AE /* ClickControlView.swift in Sources */,
 				9FC12F472AAB1832008A08AE /* WatchApp_WatchApp.swift in Sources */,
 			);
